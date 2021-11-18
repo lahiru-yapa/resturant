@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use domain\Facades\Contact\ContactFacade;
+use domain\Facades\Order\OrderFacade;
+use domain\Facades\Sub\SubFacade;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -68,10 +70,32 @@ class HomeController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request);
-        $response['item'] = ContactFacade::store($request->all());
-        $response['category'] = ContactFacade::getcategory();
 
-        return view('Pages.Item.edit')->with($response);
+        ContactFacade::create($request->all());
+
+        return back();
+    }
+
+    /**
+     * order_store
+     *
+     * @param  mixed $request
+     * @return void
+     */
+    public function order_store(Request $request)
+    {
+
+        OrderFacade::create($request->all());
+
+        return back();
+    }
+
+    public function subcribe_store(Request $request)
+    {
+
+        SubFacade::create($request->all());
+
+        return back();
     }
 }
+

@@ -112,34 +112,34 @@
                         <p>The day for a three hour tour a three hour tour then one day he was shooting at some food and
                             up through the ground came a oil that is its a beautiful day.</p>
                     </div><!-- Section Header /- -->
-
-                    <form class="row" action="{{route('contact.store')}}" method="post">
+                    {{-- <livewire:contact.contact-form /> --}}
+                    <form action="{{route('contact.store')}}" method="POST" id="contact-form">
                         @csrf
-                        <div class="form-group col-md-6">
-                            <input type="text" id="input_fname" name="first_name" required="" placeholder="First Name"
-                                class="form-control">
+                        <div class="col-md-6">
+                            <input type="text" name="first_name" placeholder="First Name" id="inp_first_name"
+                                class="form-control" style="color: blue;">
+                        </div>
+                        <div class=" col-md-6">
+                            <input type="text" id="inp_last_name" name="last_name" placeholder="Last Name"
+                                class="form-control" style="color: blue;">
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="text" id="input_lname" name="last_name" required="" placeholder="Last Name"
-                                class="form-control">
+                            <input type="text" id="inp_email" name="email" placeholder="Your Email" class="form-control"
+                                style="color: blue;">
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="text" id="input_email" name="email" required="" placeholder="Your Email"
-                                class="form-control">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="text" id="input_phone" required="" name="phone" placeholder="Your Phone Number"
-                                class="form-control">
+                            <input type="text" id="inp_phone" name="phone" placeholder="Your Phone Number"
+                                class="form-control" style="color: blue;">
                         </div>
                         <div class="form-group col-md-12">
-                            <input type="text" id="input_subject" name="subject" required="" placeholder="Subject"
-                                class="form-control">
+                            <input type="text" id="inp_subject" name="subject" placeholder="Subject"
+                                class="form-control" style="color: blue;">
                         </div>
                         <div class="form-group col-md-12">
-                            <textarea id="textarea_message" name="message" placeholder="Your Message" rows="6"
-                                class="form-control"></textarea>
+                            <textarea id="inp_message" name="message" placeholder="Your Message" rows="6"
+                                class="form-control" style="color: blue;"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">SUBMIT</button>
                     </form>
                 </div>
 
@@ -173,18 +173,7 @@
         </div><!-- Contact Us 1 /- -->
 
         <!-- Newsletter Box -->
-        <div class="subscribe-section container-fluid" id="subscribe-section">
-            <!-- Container -->
-            <div class="container">
-                <h4 class="subscribe-title col-md-5 col-sm-4 col-xs-12">subscribe to our newsletter</h4>
-                <form class="col-md-7 col-sm-8 col-xs-12">
-                    <div class="col-md-9 col-sm-8 col-xs-8"><input type="text" placeholder="Your Email Here"
-                            name="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                    <div class="col-md-3 col-sm-4 col-xs-4 no-left-padding"><input type="submit" value="subscribe"
-                            class="btn-default"></div>
-                </form>
-            </div><!-- Container /- -->
-        </div><!-- Newsletter Box /- -->
+        @include('Components.newsletter')
     </main>
 
     @include('Components.footer')
@@ -210,7 +199,7 @@
 
     <!-- JQuery v1.11.3 -->
     <script src="js/jquery.min.js"></script>
-
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js"></script>
     <!-- Library - Js -->
     <script src="libraries/lib.js"></script><!-- Bootstrap JS File v3.3.5 -->
 
@@ -219,6 +208,121 @@
 
     <!-- Library - Theme JS -->
     <script src="js/functions.js"></script>
+
+    <script>
+        $(function () {
+            // activity data validation
+            $("#contact-form").validate({
+
+                rules: {
+                    first_name: {
+                        required: true
+                    },
+                    last_name: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        emailValid: true
+                    },
+                    phone: {
+                        required: true,
+                        phoneLength: true
+                        // phoneLength: true,
+                    },
+                    subject: {
+                        required: true
+                    },
+                    message: {
+                        required: true,
+                    }
+                },
+                messages: {
+                    first_name: {
+                        required: "Please enter first name"
+                    },
+                    last_name: {
+                        required: "Please enter last name"
+                    },
+                    email: {
+                        required: "Please enter email",
+                        emailValid: "Please enter valid email"
+                    },
+                    phone: {
+                        required: "Please enter phone number",
+                        phoneLength: "Please enter phone number length 10",
+                    },
+                    subject: {
+                        required: "Please enter subject",
+                    },
+                    message: {
+                        required: "Please enter message",
+                    }
+                },
+                submitHandler: function (form) {
+
+                    form.submit();
+
+                }
+            });
+
+        });
+
+    </script>
+    <script>
+        // Validation method
+
+        $.validator.addMethod("slugSpecialChar", function (value, element) {
+            var patt = /^[a-zA-Z0-9-]+$/;
+            if (patt.test(value)) {
+                return true;
+            } else {
+                return false;
+            }
+        });
+        $.validator.addMethod("phoneLength", function (value, element) {
+            if (value.length === 10) {
+                return true;
+            } else {
+                return false;
+            }
+
+        });
+        $.validator.addMethod("emailValid", function (value, element) {
+            var patt = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
+            return patt.test(value);
+        });
+
+    </script>
+
+    <script>
+        $(function () {
+            // activity data validation
+            $("#subcribe-form").validate({
+
+                rules: {
+                    email: {
+                        required: true,
+                        emailValid: true
+                    }
+                },
+                messages: {
+
+                    email: {
+                        required: "Please enter email",
+                        emailValid: "Please enter valid email"
+                    }
+                },
+                submitHandler: function (form) {
+
+                    form.submit();
+
+                }
+            });
+
+        });
+
+    </script>
 </body>
 
 </html>

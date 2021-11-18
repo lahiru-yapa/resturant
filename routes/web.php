@@ -25,3 +25,7 @@ Route::get('gallery', [HomeController::class, "gallery"])->name('gallery');
 Route::get('contact', [HomeController::class, "contact"])->name('contact');
 
 Route::post('contact-us', [HomeController::class, "store"])->name('contact.store');
+
+Route::post('order', [HomeController::class, "order_store"])->name('order.store');
+
+Route::post('subscribe', [HomeController::class, "subcribe_store"])->name('subcribe.store');

@@ -4,7 +4,7 @@ namespace App\Http\Livewire\Contact;
 
 use App\Models\Contact;
 use domain\Facades\Contact\ContactFacade;
-
+use Illuminate\Support\Facades\Session;
 use Livewire\Component;
 
 class ContactForm extends Component
@@ -30,11 +30,7 @@ class ContactForm extends Component
     {
         return [
             'contact.first_name' => 'required',
-            // 'contact.last_name' => 'required',
-            // 'contact.email' => 'required',
-            // 'contact.phone' => 'required',
-            // 'contact.subject' => 'required',
-            // 'contact.message' => 'required',
+
         ];
     }
     /**
@@ -43,12 +39,8 @@ class ContactForm extends Component
      * @var array
      */
     protected $messages = [
-        'contact.first_name.required' => 'Please enter first name.',
-        // 'contact.last_name.required' => 'Please enter last name.',
-        // 'contact.email.required' => 'Please enter email.',
-        // 'contact.phone.required' => 'Please enter number.',
-        // 'contact.subject.required' => 'Please enter subject.',
-        // 'contact.message.required' => 'Please enter message.',
+        'contact.first_name.required' => 'Please enter question.',
+
     ];
 
     /**
@@ -79,9 +71,9 @@ class ContactForm extends Component
     public function submit()
     {
         $this->validate();
-        dd($this->validate());
+        dd("hhhhhhhhhhhhhhh");
         ContactFacade::create($this->contact->toArray());
-
+        // Session::flash('alert-success', 'FAQ Created Successfully');
         // return redirect()->route('faq.all');
     }
 }

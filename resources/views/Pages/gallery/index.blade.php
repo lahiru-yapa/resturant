@@ -106,64 +106,61 @@
                 <ul class="portfolio-list no-left-padding">
                     <li class="col-md-3 col-sm-3 col-xs-6 design">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/gallery-9.jpg" alt="gallery" width="380" height="390"></a>
+                            <img src="images/gallery-9.jpg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
-                                <h3>cream berry</h3>
-                                <p>The shooting at some food and up through the ground oil.</p>
+
+                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
                             </div>
                         </div>
                     </li>
                     <li class="col-md-3 col-sm-3 col-xs-6 web">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/gallery-10.jpg" alt="gallery" width="380" height="390"></a>
+                            <img src="images/gallery-10.jpg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
-                                <h3>cream berry</h3>
-                                <p>The shooting at some food and up through the ground oil.</p>
+                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
+
                             </div>
                         </div>
                     </li>
                     <li class="col-md-3 col-sm-3 col-xs-6 video">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/gallery-11.jpg" alt="gallery" width="380" height="390"></a>
+                            <img src="images/gallery-11.jpg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
-                                <h3>cream berry</h3>
-                                <p>The shooting at some food and up through the ground oil.</p>
+                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
+
                             </div>
                         </div>
                     </li>
                     <li class="col-md-3 col-sm-3 col-xs-6 design">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/gallery-18.jpg" alt="gallery" width="380" height="390"></a>
+                            <img src="images/gallery-18.jpg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
-                                <h3>cream berry</h3>
-                                <p>The shooting at some food and up through the ground oil.</p>
+                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
                             </div>
                         </div>
                     </li>
                     <li class="col-md-3 col-sm-3 col-xs-6 web">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/gallery-13.jpg" alt="gallery" width="380" height="390"></a>
+                            <img src="images/gallery-13.jpg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
-                                <h3>cream berry</h3>
-                                <p>The shooting at some food and up through the ground oil.</p>
+                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
+
                             </div>
                         </div>
                     </li>
                     <li class="col-md-3 col-sm-3 col-xs-6 video">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/gallery-14.jpg" alt="gallery" width="380" height="390"></a>
+                            <img src="images/gallery-14.jpg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
-                                <h3>cream berry</h3>
-                                <p>The shooting at some food and up through the ground oil.</p>
+                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
                             </div>
                         </div>
                     </li>
                     <li class="col-md-3 col-sm-3 col-xs-6 design">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/gallery-15.jpg" alt="gallery" width="380" height="390"></a>
+                            <img src="images/gallery-15.jpg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
-                                <h3>cream berry</h3>
-                                <p>The shooting at some food and up through the ground oil.</p>
+                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
                             </div>
                         </div>
                     </li>
@@ -171,48 +168,47 @@
                         <div class="content-image-block">
                             <a href=".#"><img src="images/gallery-19.jpg" alt="gallery" width="380" height="390"></a>
                             <div class="content-block-hover">
-                                <h3>cream berry</h3>
-                                <p>The shooting at some food and up through the ground oil.</p>
+                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
                             </div>
                         </div>
                     </li>
                     <li class="col-md-3 col-sm-3 col-xs-6 design">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/gallery-15.jpg" alt="gallery" width="380" height="390"></a>
+                            <img src="images/rice2.jpg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
-                                <h3>cream berry</h3>
-                                <p>The shooting at some food and up through the ground oil.</p>
+                                <p><b>රසකාරක මත පදනම් නොවූ සුව්ක්‍ය්යාරක්#####@ ප්‍රනීත ආහාර </b></p>
                             </div>
                         </div>
                     </li>
                     <li class="col-md-3 col-sm-3 col-xs-6 web">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/gallery-16.jpg" alt="gallery" width="380" height="390"></a>
+                            <a href=".#"><img src="images/rice1.jpeg" alt="gallery" width="380" height="390"></a>
                             <div class="content-block-hover">
                                 <h3>cream berry</h3>
                                 <p>The shooting at some food and up through the ground oil.</p>
                             </div>
                         </div>
                     </li>
+                    {{-- gallery-16.jpg --}}
                     <li class="col-md-3 col-sm-3 col-xs-6 design">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/gallery-17.jpg" alt="gallery" width="380" height="390"></a>
+                            <a href=".#"><img src="images/rice3.jpeg" alt="gallery" width="380" height="390"></a>
                             <div class="content-block-hover">
-                                <h3>cream berry</h3>
-                                <p>The shooting at some food and up through the ground oil.</p>
+                                <p><b>රසකාරක මත පදනම් නොවූ සුව්ක්‍ය්යාරක්#####@ ප්‍රනීත ආහාර </b></p>
                             </div>
                         </div>
                     </li>
+                    {{-- gallery-17.jpg --}}
                     <li class="col-md-3 col-sm-3 col-xs-6 design">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/gallery-20.jpg" alt="gallery" width="380" height="390"></a>
+                            <a href=".#"><img src="images/rice4.jpeg" alt="gallery" width="380" height="390"></a>
                             <div class="content-block-hover">
-                                <h3>cream berry</h3>
-                                <p>The shooting at some food and up through the ground oil.</p>
+                                <p><b>රසකාරක මත පදනම් නොවූ සුව්ක්‍ය්යාරක්#####@ ප්‍රනීත ආහාර </b></p>
                             </div>
                         </div>
                     </li>
                 </ul>
+                {{-- gallery-20.jpg --}}
                 <nav class="ow-pagination">
                     <ul class="pagination">
                         <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i></a></li>
@@ -228,18 +224,7 @@
 
 
         <!-- Newsletter Box -->
-        <div class="subscribe-section container-fluid" id="subscribe-section">
-            <!-- Container -->
-            <div class="container">
-                <h4 class="subscribe-title col-md-5 col-sm-4 col-xs-12">subscribe to our newsletter</h4>
-                <form class="col-md-7 col-sm-8 col-xs-12">
-                    <div class="col-md-9 col-sm-8 col-xs-8"><input type="text" placeholder="Your Email Here"
-                            name="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                    <div class="col-md-3 col-sm-4 col-xs-4 no-left-padding"><input type="submit" value="subscribe"
-                            class="btn-default"></div>
-                </form>
-            </div><!-- Container /- -->
-        </div><!-- Newsletter Box /- -->
+        @include('Components.newsletter')
     </main>
 
     @include('Components.footer')
@@ -268,12 +253,66 @@
 
     <!-- Library - Js -->
     <script src="libraries/lib.js"></script><!-- Bootstrap JS File v3.3.5 -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js"></script>
 
     <!-- Library - Google Map API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE"></script>
 
     <!-- Library - Theme JS -->
     <script src="js/functions.js"></script>
+    <script>
+        $(function () {
+            // activity data validation
+            $("#subcribe-form").validate({
+
+                rules: {
+                    email: {
+                        required: true,
+                        emailValid: true
+                    }
+                },
+                messages: {
+
+                    email: {
+                        required: "Please enter email",
+                        emailValid: "Please enter valid email"
+                    }
+                },
+                submitHandler: function (form) {
+
+                    form.submit();
+
+                }
+            });
+
+        });
+
+    </script>
+    <script>
+        // Validation method
+
+        $.validator.addMethod("slugSpecialChar", function (value, element) {
+            var patt = /^[a-zA-Z0-9-]+$/;
+            if (patt.test(value)) {
+                return true;
+            } else {
+                return false;
+            }
+        });
+        $.validator.addMethod("phoneLength", function (value, element) {
+            if (value.length === 10) {
+                return true;
+            } else {
+                return false;
+            }
+
+        });
+        $.validator.addMethod("emailValid", function (value, element) {
+            var patt = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
+            return patt.test(value);
+        });
+
+    </script>
 </body>
 
 </html>

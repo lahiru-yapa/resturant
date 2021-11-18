@@ -12,7 +12,7 @@
                      <span class="icon-bar"></span>
                  </button>
                  <a class="navbar-brand" href="{{route("dashboard")}}" title="Logo">
-                     <h3>Royal <img src="images/logo.png" alt="logo" /> Bakers</h3>
+                     <img src="images/logo.png" alt="logo" />
                  </a>
              </div>
              <div class="add-to-cart">

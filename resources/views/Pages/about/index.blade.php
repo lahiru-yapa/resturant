@@ -291,18 +291,7 @@
         </div><!-- Testimonial Section /- -->
 
         <!-- Newsletter Box -->
-        <div class="subscribe-section container-fluid" id="subscribe-section">
-            <!-- Container -->
-            <div class="container">
-                <h4 class="subscribe-title col-md-5 col-sm-4 col-xs-12">subscribe to our newsletter</h4>
-                <form class="col-md-7 col-sm-8 col-xs-12">
-                    <div class="col-md-9 col-sm-8 col-xs-8"><input type="text" placeholder="Your Email Here"
-                            name="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                    <div class="col-md-3 col-sm-4 col-xs-4 no-left-padding"><input type="submit" value="subscribe"
-                            class="btn-default"></div>
-                </form>
-            </div><!-- Container /- -->
-        </div><!-- Newsletter Box /- -->
+        @include('Components.newsletter')
     </main>
 
     @include('Components.footer')
@@ -334,9 +323,63 @@
 
     <!-- Library - Google Map API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js"></script>
 
     <!-- Library - Theme JS -->
     <script src="js/functions.js"></script>
+    <script>
+        $(function () {
+            // activity data validation
+            $("#subcribe-form").validate({
+
+                rules: {
+                    email: {
+                        required: true,
+                        emailValid: true
+                    }
+                },
+                messages: {
+
+                    email: {
+                        required: "Please enter email",
+                        emailValid: "Please enter valid email"
+                    }
+                },
+                submitHandler: function (form) {
+
+                    form.submit();
+
+                }
+            });
+
+        });
+
+    </script>
+     <script>
+        // Validation method
+
+        $.validator.addMethod("slugSpecialChar", function (value, element) {
+            var patt = /^[a-zA-Z0-9-]+$/;
+            if (patt.test(value)) {
+                return true;
+            } else {
+                return false;
+            }
+        });
+        $.validator.addMethod("phoneLength", function (value, element) {
+            if (value.length === 10) {
+                return true;
+            } else {
+                return false;
+            }
+
+        });
+        $.validator.addMethod("emailValid", function (value, element) {
+            var patt = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
+            return patt.test(value);
+        });
+
+    </script>
 </body>
 
 </html>

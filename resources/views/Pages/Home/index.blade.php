@@ -246,83 +246,7 @@
                 </div>
             </div><!-- Container /- -->
         </div><!-- Festival Section /- -->
-        <section class="portfolio-section-three">
-            <div class="outer-box">
-                <div class="auto-container">
-                    <div class="sec-title text-center">
-                        <div class="divider"><img src="images/icons/divider_3.png" alt=""></div>
-                        <h2>Our Gallery</h2>
-                    </div>
-                </div>
 
-                <!-- Portfolio Carousel -->
-                <div class="portfolio-carousel owl-carousel owl-theme">
-                    <!-- Portfolio Block Three -->
-                    <div class="portfolio-block-thre">
-                        <div class="image-box">
-                            <figure class="image"><a href="images/gallery/3-1.jpg" class="lightbox-image"
-                                    data-fancybox="portfolio"><img src="images/gallery/3-1.jpg" alt=""></a></figure>
-                        </div>
-                    </div>
-
-                    <!-- Portfolio Block Three -->
-                    <div class="portfolio-block-thre">
-                        <div class="image-box">
-                            <figure class="image"><a href="images/gallery/3-2.jpg" class="lightbox-image"
-                                    data-fancybox="portfolio"><img src="images/gallery/3-2.jpg" alt=""></a></figure>
-                        </div>
-                    </div>
-
-                    <!-- Portfolio Block Three -->
-                    <div class="portfolio-block-thre">
-                        <div class="image-box">
-                            <figure class="image"><a href="images/gallery/3-3.jpg" class="lightbox-image"
-                                    data-fancybox="portfolio"><img src="images/gallery/3-3.jpg" alt=""></a></figure>
-                        </div>
-                    </div>
-
-                    <!-- Portfolio Block Three -->
-                    <div class="portfolio-block-thre">
-                        <div class="image-box">
-                            <figure class="image"><a href="images/gallery/3-4.jpg" class="lightbox-image"
-                                    data-fancybox="portfolio"><img src="images/gallery/3-4.jpg" alt=""></a></figure>
-                        </div>
-                    </div>
-
-                    <!-- Portfolio Block Three -->
-                    <div class="portfolio-block-thre">
-                        <div class="image-box">
-                            <figure class="image"><a href="images/gallery/3-5.jpg" class="lightbox-image"
-                                    data-fancybox="portfolio"><img src="images/gallery/3-5.jpg" alt=""></a></figure>
-                        </div>
-                    </div>
-
-                    <!-- Portfolio Block Three -->
-                    <div class="portfolio-block-thre">
-                        <div class="image-box">
-                            <figure class="image"><a href="images/gallery/3-6.jpg" class="lightbox-image"
-                                    data-fancybox="portfolio"><img src="images/gallery/3-6.jpg" alt=""></a></figure>
-                        </div>
-                    </div>
-
-                    <!-- Portfolio Block Three -->
-                    <div class="portfolio-block-thre">
-                        <div class="image-box">
-                            <figure class="image"><a href="images/gallery/3-7.jpg" class="lightbox-image"
-                                    data-fancybox="portfolio"><img src="images/gallery/3-7.jpg" alt=""></a></figure>
-                        </div>
-                    </div>
-
-                    <!-- Portfolio Block Three -->
-                    <div class="portfolio-block-thre">
-                        <div class="image-box">
-                            <figure class="image"><a href="images/gallery/3-8.jpg" class="lightbox-image"
-                                    data-fancybox="portfolio"><img src="images/gallery/3-8.jpg" alt=""></a></figure>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- Menu Section -->
         <div id="menu-section" class="menu-section container-fluid no-padding">
             <div class="section-padding"></div>
@@ -331,8 +255,8 @@
                     <h3>Our Menu</h3>
                     <h5>CREAMY DISHES</h5>
                     <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15">
-                    <p>The day for a three hour tour a three hour tour then one day he was shooting at some food and up
-                        through the ground came a oil that is its a beautiful day.</p>
+                    <p><b>වසර 15 කට අදික පලපුරුද්දක් සහිත Chandrika Hotel වෙතින් . සියලූම අවස්තාවලට ගැලපෙන උසස්ම
+                            ප්‍රමිතියකින් යුතු Cake වර්ග.. මිත්‍රශීලී සුහද සේවයක් සදහා අප සමග අත්වැල් බැද ගන්න.</b></p>
                 </div><!-- Section Header /-  -->
             </div><!-- Container /- -->
 
@@ -356,7 +280,6 @@
                 <div class="">
                     <img src="images/menu-3.png" alt="menu" />
                     <h3>VELVET CAKE </h3>
-
                 </div>
             </div>
 
@@ -405,11 +328,10 @@
                                             <h5>CHEFS</h5>
                                             <img src="images/section-seprator-1.png" alt="section-seprator" width="70"
                                                 height="3">
-                                            <p>The day for a three hour tour a three hour tour then one day he was
-                                                shooting at some food and up through the ground came a oil that is its a
-                                                beautiful day Got a dream and we just know now we are gonna make our
-                                                dream come true so get a witch is shawl on a broomstick you can crawl on
-                                                were gonna pay.</p>
+                                            <p>ලාබ අපේක්ෂාවෙන් බැහැරව අප පාරිභෝගික මහතුන් හට ඉහල ප්‍රමිතියකින් යුතු,
+                                                රසකාරක මත
+                                                පදනම් නොවූ සුව්ක්‍ය්යාරක්#####@ ප්‍රනීත ආහාර ලබා දීමට අප සෑම විටම
+                                                සූදානම් දී සිටින්නෙමු.</p>
                                         </div><!-- Section Header /-  -->
                                         <div class="team-contact-info">
                                             <h5>Stefhen Richards</h5>
@@ -447,11 +369,11 @@
                                             <h5>CHEFS</h5>
                                             <img src="images/section-seprator-1.png" alt="section-seprator" width="70"
                                                 height="3">
-                                            <p>The day for a three hour tour a three hour tour then one day he was
-                                                shooting at some food and up through the ground came a oil that is its a
-                                                beautiful day Got a dream and we just know now we are gonna make our
-                                                dream come true so get a witch is shawl on a broomstick you can crawl on
-                                                were gonna pay.</p>
+                                            <p>Tලාබ අපේක්ෂාවෙන් බැහැරව අප පාරිභෝගික මහතුන් හට ඉහල ප්‍රමිතියකින් යුතු,
+                                                රසකාරක
+                                                මත
+                                                පදනම් නොවූ සුව්ක්‍ය්යාරක්#####@ ප්‍රනීත ආහාර ලබා දීමට අප සෑම විටම
+                                                සූදානම් දී සිටින්නෙමු.</p>
                                         </div><!-- Section Header /-  -->
                                         <div class="team-contact-info">
                                             <h5>Stefhen Richards</h5>
@@ -499,30 +421,27 @@
                             <h3>Choose your Flavour</h3>
                             <h5>Order Online</h5>
                             <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15">
-                            <p>The day for a three hour tour a three hour tour then one day he was shooting at some food
-                                and up through the ground came a oil that is its a beautiful day.</p>
+                            <p><b>Chandrika hotel වෙතින් යම සේවාවක් ලබා ගැනීමට පහත ඇති පෝරමය සම්පූර්ණ කරන්න අපගේ
+                                    නියෝජිතයෙක් ඔබව සම්බන්ධ කර ගනු ඇත..පාරිභෝගික මහතුන් හට සේවය සැපයීම අපට මහත්
+                                    සතුටකි.</b></p>
                         </div><!-- Section Header /-  -->
-                        <form class="online-form">
+                        <form action="{{route('order.store')}}" method="POST" id="order-form">
+                            @csrf
                             <div class="col-md-6 col-sm-6 col-xs-6">
-                                <input type="text" class="form-control" placeholder="Name *" required />
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-xs-6">
-                                <input type="text" class="form-control" placeholder="Phone Number *" required />
-                            </div>
-                            <div class="form-group col-md-6 col-sm-6 col-xs-6">
-                                <select>
-                                    <option>FLAVOURS</option>
-                                    <option>FLAVOURS</option>
-                                    <option>FLAVOURS</option>
-                                    <option>FLAVOURS</option>
-                                </select>
+                                <input type="text" class="form-control" placeholder="Name *" name="name" />
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6">
-                                <input type="text" class="form-control" placeholder="Your Address *" required />
+                                <input type="text" class="form-control" placeholder="Phone Number *" name="phone" />
                             </div>
-                            <a href="#" title="Order Now" class="order-now">Order Now</a>
-                            <p>FOR MORE QUERIES CALL US AT :<a href="tel:1-800-23-456-7890" title="1-800-23-456-7890">
-                                    1-800-23-456-7890</a></p>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <input type="text" class="form-control" placeholder="Food Name *" name="food" />
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <input type="text" class="form-control" placeholder="Your Address *" name="address" />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Order Now</button>
+                            <p>FOR MORE QUERIES CALL US AT :<a href="tel:0710995133 " title="0710995133 ">
+                                    0710995133 </a></p>
                         </form>
                     </div>
                 </div>
@@ -676,21 +595,10 @@
             </div><!-- Container /- -->
             <div class="section-padding"></div>
         </div><!-- Latest Blog /- -->
-
+        @include('Components.newsletter')
 
         <!-- Newsletter Box -->
-        <div class="subscribe-section container-fluid" id="subscribe-section">
-            <!-- Container -->
-            <div class="container">
-                <h4 class="subscribe-title col-md-5 col-sm-4 col-xs-12">subscribe to our newsletter</h4>
-                <form class="col-md-7 col-sm-8 col-xs-12">
-                    <div class="col-md-9 col-sm-8 col-xs-8"><input type="text" placeholder="Your Email Here"
-                            name="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
-                    <div class="col-md-3 col-sm-4 col-xs-4 no-left-padding"><input type="submit" value="subscribe"
-                            class="btn-default" name="subscribe"></div>
-                </form>
-            </div><!-- Container /- -->
-        </div><!-- Newsletter Box /- -->
+
     </main>
 
     @include('Components.footer')
@@ -722,9 +630,113 @@
 
     <!-- Library - Google Map API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW40y4kdsjsz714OVTvrw7woVCpD8EbLE"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js"></script>
 
     <!-- Library - Theme JS -->
     <script src="js/functions.js"></script>
+    <script>
+        $(function () {
+            // activity data validation
+            $("#order-form").validate({
+
+                rules: {
+                    name: {
+                        required: true
+                    },
+                    food: {
+                        required: true
+                    },
+                    address: {
+                        required: true,
+                    },
+                    phone: {
+                        required: true,
+                        phoneLength: true
+
+                    },
+
+                },
+                messages: {
+                    name: {
+                        required: "Please enter name"
+                    },
+                    food: {
+                        required: "Please enter food name"
+                    },
+
+                    phone: {
+                        required: "Please enter phone number",
+                        phoneLength: "Please enter phone number length 10",
+                    },
+                    address: {
+                        required: "Please enter address",
+                    },
+
+                },
+                submitHandler: function (form) {
+
+                    form.submit();
+
+                }
+            });
+
+        });
+
+    </script>
+    <script>
+        // Validation method
+
+        $.validator.addMethod("slugSpecialChar", function (value, element) {
+            var patt = /^[a-zA-Z0-9-]+$/;
+            if (patt.test(value)) {
+                return true;
+            } else {
+                return false;
+            }
+        });
+        $.validator.addMethod("phoneLength", function (value, element) {
+            if (value.length === 10) {
+                return true;
+            } else {
+                return false;
+            }
+
+        });
+        $.validator.addMethod("emailValid", function (value, element) {
+            var patt = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i;
+            return patt.test(value);
+        });
+
+    </script>
+  <script>
+    $(function () {
+        // activity data validation
+        $("#subcribe-form").validate({
+
+            rules: {
+                email: {
+                    required: true,
+                    emailValid: true
+                }
+            },
+            messages: {
+
+                email: {
+                    required: "Please enter email",
+                    emailValid: "Please enter valid email"
+                }
+            },
+            submitHandler: function (form) {
+
+                form.submit();
+
+            }
+        });
+
+    });
+
+</script>
 </body>
 
 </html>
+
