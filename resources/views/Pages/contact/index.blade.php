@@ -67,8 +67,8 @@
                 </div>
             </div>
             <ul class="contact">
-                <li><a href="tel:0710995133" title="0710995133"><i class="fa fa-phone"
-                            aria-hidden="true"></i>Phone: 0710995133</a></li>
+                <li><a href="tel:0710995133" title="0710995133"><i class="fa fa-phone" aria-hidden="true"></i>Phone:
+                        0710995133</a></li>
             </ul>
             <div class="social-icons pull-right">
                 <ul>
@@ -161,7 +161,7 @@
                             </p>
                         </div>
                     </div>
-                    <!-- Map Section -->
+
                     <div class="map">
                         <div class="map-canvas" id="map-canvas-contact" data-lat="-37.817214" data-lng="144.955925"
                             data-string="1905A, Brook Downtown,North California,CA 19A34 United States" data-zoom="12">

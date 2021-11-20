@@ -16,10 +16,11 @@
                          Hotel</h3>
                  </a>
              </div>
-             <div class="add-to-cart">
+             <div class="add-to-cart" style="">
                  <div class="menu-search">
                      <div id="sb-search" class="sb-search">
                          <form>
+
                              <input class="sb-search-input" placeholder="Enter your search term..." type="text" value=""
                                  name="search" id="search" />
                              <button class="sb-search-submit"><i class="fa fa-search"></i></button>
