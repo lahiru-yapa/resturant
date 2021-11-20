@@ -2,20 +2,20 @@
     <div class="footer-content container">
         <div class="col-md-4 col-sm-6 col-xs-6">
             <div class="about-footer">
-                <h3>Royal<img src="images/logo.png" alt="logo" />Bakers</h3>
+                <h3>Chandrika<img src="images/logo.png" alt="logo" style="width: 100px;" />Bakers</h3>
                 <p>The day for a three hour tour a three hour tour then one day he was shooting at some food and up
                     through the ground oil.</p>
-                <a href="contact-2.html" title="Contact" class="about-links">Contact</a>
-            </div>0775223365
+                <a href="{{route("contact")}}" title="Contact" class="about-links">Contact</a>
+            </div>
         </div>
 
         <div class="col-md-4 col-sm-6 col-xs-6">
-            <div class="about-footer">
+            {{-- <div class="about-footer">
                 <h5>Order online</h5>
                 <p>The day for a three hour tour a three hour tour then one day he was shooting at some food and up
                     through the ground oil.</p>
                 <a href="#" title="Order Now" class="about-links order">Order Now</a>
-            </div>
+            </div> --}}
         </div>
 
         <div class="col-md-4 col-sm-6 col-xs-6">

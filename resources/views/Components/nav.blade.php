@@ -12,7 +12,8 @@
                      <span class="icon-bar"></span>
                  </button>
                  <a class="navbar-brand" href="{{route("dashboard")}}" title="Logo">
-                     <img src="images/logo.png" alt="logo" />
+                     <h3>Chandrika<img src="images/logo.png" alt="logo" style="width: 100px;" />
+                         Hotel</h3>
                  </a>
              </div>
              <div class="add-to-cart">
@@ -37,15 +38,14 @@
                              aria-expanded="false">Services</a>
                          <i class="ddl-switch fa fa-angle-down"></i>
                          <ul class="dropdown-menu">
-                             <li><a href="{{route("about")}}" title="About">Bakery</a></li>
-                             <li><a href="{{route("service")}}" title="Services">Hotel</a></li>
-                             <li><a href="{{route("service")}}" title="Services">Cake</a></li>
+                             <li><a href="{{route("bakery")}}" title="About">Bakery</a></li>
+                             <li><a href="{{route("hotel")}}" title="Services">Hotel</a></li>
+                             <li><a href="{{route("cake")}}" title="Services">Cake</a></li>
                          </ul>
                      </li>
                      <li><a href="{{route("about")}}" title="About">About us</a></li>
 
-                     <li><a href="#menu-section" title="Features">Features</a></li>
-                     <li><a href="gallery-2.html" title="Portfolio">Portfolio</a></li>
+
                      <li class="dropdown">
                          <a href="blog.html" title="Latest News" class="dropdown-toggle" role="button"
                              aria-haspopup="true" aria-expanded="false">Blog</a>

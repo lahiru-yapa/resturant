@@ -67,8 +67,8 @@
                 </div>
             </div>
             <ul class="contact">
-                <li><a href="tel:1-800-23-456-7890" title="1-800-23-456-7890"><i class="fa fa-phone"
-                            aria-hidden="true"></i>Phone: 1-800-23-456-7890</a></li>
+                <li><a href="tel:0710995133" title="0710995133"><i class="fa fa-phone" aria-hidden="true"></i>Phone:
+                        0710995133</a></li>
             </ul>
             <div class="social-icons pull-right">
                 <ul>
@@ -154,11 +154,10 @@
                                             <h5>CHEFS</h5>
                                             <img src="images/section-seprator-1.png" alt="section-seprator" width="70"
                                                 height="3">
-                                            <p>The day for a three hour tour a three hour tour then one day he was
-                                                shooting at some food and up through the ground came a oil that is its a
-                                                beautiful day Got a dream and we just know now we are gonna make our
-                                                dream come true so get a witch is shawl on a broomstick you can crawl on
-                                                were gonna pay.</p>
+                                            <p>ලාබ අපේක්ෂාවෙන් බැහැරව අප පාරිභෝගික මහතුන් හට ඉහල ප්‍රමිතියකින් යුතු,
+                                                රසකාරක මත
+                                                පදනම් නොවූ සුව්ක්‍ය්යාරක්#####@ ප්‍රනීත ආහාර ලබා දීමට අප සෑම විටම
+                                                සූදානම් දී සිටින්නෙමු.</p>
                                         </div><!-- Section Header /-  -->
                                         <div class="team-contact-info">
                                             <h5>Stefhen Richards</h5>
@@ -177,9 +176,9 @@
                                             <p><a href="mailto:info@domain.com" title="info@domain.com"><i
                                                         class="fa fa-envelope"
                                                         aria-hidden="true"></i>info@domain.com</a></p>
-                                            <p><a href="tel:1-800-23-456-7890" title="1-800-23-456-7890"><i
-                                                        class="fa fa-phone" aria-hidden="true"></i>Phone:
-                                                    1-800-23-456-7890</a></p>
+                                            <p><a href="tel:0710995133" title="0710995133"><i class="fa fa-phone"
+                                                        aria-hidden="true"></i>Phone:
+                                                    0710995133</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -196,11 +195,10 @@
                                             <h5>CHEFS</h5>
                                             <img src="images/section-seprator-1.png" alt="section-seprator" width="70"
                                                 height="3">
-                                            <p>The day for a three hour tour a three hour tour then one day he was
-                                                shooting at some food and up through the ground came a oil that is its a
-                                                beautiful day Got a dream and we just know now we are gonna make our
-                                                dream come true so get a witch is shawl on a broomstick you can crawl on
-                                                were gonna pay.</p>
+                                            <p>ලාබ අපේක්ෂාවෙන් බැහැරව අප පාරිභෝගික මහතුන් හට ඉහල ප්‍රමිතියකින් යුතු,
+                                                රසකාරක මත
+                                                පදනම් නොවූ සුව්ක්‍ය්යාරක්#####@ ප්‍රනීත ආහාර ලබා දීමට අප සෑම විටම
+                                                සූදානම් දී සිටින්නෙමු.</p>
                                         </div><!-- Section Header /-  -->
                                         <div class="team-contact-info">
                                             <h5>Stefhen Richards</h5>
@@ -219,9 +217,9 @@
                                             <p><a href="mailto:info@domain.com" title="info@domain.com"><i
                                                         class="fa fa-envelope"
                                                         aria-hidden="true"></i>info@domain.com</a></p>
-                                            <p><a href="tel:1-800-23-456-7890" title="1-800-23-456-7890"><i
-                                                        class="fa fa-phone" aria-hidden="true"></i>Phone:
-                                                    1-800-23-456-7890</a></p>
+                                            <p><a href="tel:0710995133" title="0710995133"><i class="fa fa-phone"
+                                                        aria-hidden="true"></i>Phone:
+                                                    0710995133</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -300,12 +298,12 @@
     <div class="bottom-footer container-fluid no-padding">
         <div class="container">
             <div class="footer-copyright">
-                <p>&copy; Copyrights 2016 Royal Bakers. All Rights Reserved</p>
+                <p>&copy; Copyrights 2021 Chandrika Bakers.</p>
             </div>
             <div class="footer-breadcrumb pull-right">
                 <ol class="breadcrumb">
                     <li title="Home" class="active">Home</li>
-                    <li><a title="About Us" href="about.html">About</a></li>
+                    <li><a title="About Us" href="{{route("about")}}">About</a></li>
                     <li><a title="Services" href="services.html">Services</a></li>
                     <li><a title="Portfolio" href="portfolio.html">Portfolio</a></li>
                     <li><a title="Blog" href="blog.html">Blog</a></li>
@@ -355,7 +353,7 @@
         });
 
     </script>
-     <script>
+    <script>
         // Validation method
 
         $.validator.addMethod("slugSpecialChar", function (value, element) {

@@ -30,17 +30,34 @@ class HomeController extends Controller
     }
 
 
-
+    /**
+     * cake
+     *
+     * @return void
+     */
+    public function cake()
+    {
+        return view('Pages.cake.index');
+    }
     /**
      * service
      *
      * @return void
      */
-    public function service()
+    public function hotel()
     {
-        return view('Pages.services.index');
+        return view('Pages.hotel.index');
     }
 
+    /**
+     * bakery
+     *
+     * @return void
+     */
+    public function bakery()
+    {
+        return view('Pages.bakery.index');
+    }
 
     /**
      * gallery
@@ -52,6 +69,16 @@ class HomeController extends Controller
         return view('Pages.gallery.index');
     }
 
+
+    /**
+     * gallery2
+     *
+     * @return void
+     */
+    public function gallery2()
+    {
+        return view('Pages.gallery.index2');
+    }
     /**
      * contact
      *
@@ -61,6 +88,7 @@ class HomeController extends Controller
     {
         return view('Pages.contact.index');
     }
+
 
     /**
      * store
@@ -98,4 +126,3 @@ class HomeController extends Controller
         return back();
     }
 }
-

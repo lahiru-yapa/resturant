@@ -136,27 +136,24 @@
                         through the ground came a oil that is its a beautiful day.</p>
                 </div><!-- Section Header /-  -->
 
-                <form>
+                <form action="{{route('order.store')}}" method="POST" id="subcribe-order">
+                    @csrf
+
                     <div class="col-md-4 col-sm-4 col-xs-4">
-                        <input type="text" class="form-control" placeholder="Name *" required />
+                        <input type="text" class="form-control" placeholder="Name *" name="name" name="name" />
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-4">
-                        <input type="text" class="form-control" placeholder="Phone Number *" required />
+                        <input type="text" class="form-control" placeholder="Phone Number *" name="phone" />
                     </div>
-                    <div class="form-group col-md-4 col-sm-4 col-xs-4">
-                        <select>
-                            <option>FLAVOURS</option>
-                            <option>FLAVOURS</option>
-                            <option>FLAVOURS</option>
-                            <option>FLAVOURS</option>
-                        </select>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <input type="text" class="form-control" placeholder="Food Name *" name="food" />
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <textarea class="form-control" rows="4" placeholder="Your Address *"></textarea>
+                        <textarea class="form-control" rows="4" placeholder="Your Address *" name="address"></textarea>
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12 order-links">
-                        <a href="#" title="Order Now" class="order-now">Order Now</a>
-                        <a href="#" title="Free Delivery" class="free-delivery">Free Delivery</a>
+                        <button type="submit" class="order-now">Order Now</button>
+
                     </div>
                     <div class="working-hours">
                         <p><span>working hours:</span> monday to friday : 8.30AM - 10.30PM</p>
@@ -169,69 +166,60 @@
         </div><!-- Order Section 1 /- -->
 
         <!-- Menu Section -->
-        <div class="menu-section container-fluid no-padding">
+        <div id="menu-section" class="menu-section container-fluid no-padding">
             <div class="section-padding"></div>
             <div class="container">
                 <div class="section-header">
                     <h3>Our Menu</h3>
                     <h5>CREAMY DISHES</h5>
                     <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15">
-                    <p>The day for a three hour tour a three hour tour then one day he was shooting at some food and up
-                        through the ground came a oil that is its a beautiful day.</p>
+                    <p><b>වසර 15 කට අදික පලපුරුද්දක් සහිත Chandrika Hotel වෙතින් . සියලූම අවස්තාවලට ගැලපෙන උසස්ම
+                            ප්‍රමිතියකින් යුතු Cake වර්ග.. මිත්‍රශීලී සුහද සේවයක් සදහා අප සමග අත්වැල් බැද ගන්න.</b></p>
                 </div><!-- Section Header /-  -->
             </div><!-- Container /- -->
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="menu-box">
-                    <img src="images/menu-1.png" alt="menu" />
-                    <h3>CHOCOLATE FLASH <span>$20.00</span></h3>
-                    <p>The day he wane day he was shooting at some food and up through the ground.</p>
-                    <a href="#" title="Order Now">Order Now</a>
+            <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
+                <div class="">
+                    <img src="images/b1.jpeg" alt="menu" />
+
+
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="menu-box">
-                    <img src="images/menu-2.png" alt="menu" />
-                    <h3>ROSE CREAMY <span>$25.00</span></h3>
-                    <p>The day he wane day he was shooting at some food and up through the ground.</p>
-                    <a href="#" title="Order Now">Order Now</a>
+            <div class="col-md-4 col-sm-6 col-xs-6 text-center" style="text-align: center">
+                <div class="">
+                    <img src="images/b2.jpeg" alt="menu" />
+
+
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="menu-box">
-                    <img src="images/menu-3.png" alt="menu" />
-                    <h3>VELVET CAKE <span>$32.00</span></h3>
-                    <p>The day he wane day he was shooting at some food and up through the ground.</p>
-                    <a href="#" title="Order Now">Order Now</a>
+            <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
+                <div class="">
+                    <img src="images/b3.jpeg" alt="menu" />
+
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="menu-box">
-                    <img src="images/menu-4.png" alt="menu" />
-                    <h3>FLOWERED CAKE <span>$38.00</span></h3>
-                    <p>The day he wane day he was shooting at some food and up through the ground.</p>
-                    <a href="#" title="Order Now">Order Now</a>
+            <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
+                <div class="">
+                    <img src="images/sd.jpeg" alt="menu" />
+
+
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="menu-box">
-                    <img src="images/menu-5.png" alt="menu" />
-                    <h3>ROSEBERRY CAKE <span>$48.00</span></h3>
-                    <p>The day he wane day he was shooting at some food and up through the ground.</p>
-                    <a href="#" title="Order Now">Order Now</a>
+            <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
+                <div class="">
+                    <img src="images/tg.jpeg" alt="menu" />
+
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="menu-box">
-                    <img src="images/menu-6.png" alt="menu" />
-                    <h3>CHOCOLATE BERRY CAKE <span>$54.00</span></h3>
-                    <p>The day he wane day he was shooting at some food and up through the ground.</p>
-                    <a href="#" title="Order Now">Order Now</a>
+            <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
+                <div class="">
+                    <img src="images/sde.jpeg" alt="menu" />
+
                 </div>
             </div>
         </div><!-- Menu Section /- -->
@@ -273,6 +261,56 @@
 
     <!-- Library - Theme JS -->
     <script src="js/functions.js"></script>
+
+    <script>
+        $(function () {
+            // activity data validation
+            $("#subcribe-order").validate({
+
+                rules: {
+                    name: {
+                        required: true
+                    },
+                    food: {
+                        required: true
+                    },
+                    address: {
+                        required: true,
+                    },
+                    phone: {
+                        required: true,
+                        phoneLength: true
+
+                    },
+
+                },
+                messages: {
+                    name: {
+                        required: "Please enter name"
+                    },
+                    food: {
+                        required: "Please enter food name"
+                    },
+
+                    phone: {
+                        required: "Please enter phone number",
+                        phoneLength: "Please enter phone number length 10",
+                    },
+                    address: {
+                        required: "Please enter address",
+                    },
+
+                },
+                submitHandler: function (form) {
+
+                    form.submit();
+
+                }
+            });
+
+        });
+
+    </script>
     <script>
         $(function () {
             // activity data validation

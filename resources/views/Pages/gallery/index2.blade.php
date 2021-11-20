@@ -16,7 +16,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Gallery-1 - Bakery</title>
+    <title>Gallery-2 - Bakery</title>
 
     <!-- Standard Favicon -->
     <link rel="icon" type="image/x-icon" href="images//favicon.ico" />
@@ -57,14 +57,14 @@
                 <div class="language-dropdown dropdown">
                     <i class="fa fa-globe" aria-hidden="true"></i>
                     <label>Languages:</label>
-                    <button class="btn dropdown-toggle" type="button" id="language" data-toggle="" aria-haspopup="true"
-                        aria-expanded="true">English <span class="caret"></span></button>
+                    <button class="btn dropdown-toggle" type="button" id="language" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="true">English <span class="caret"></span></button>
 
                 </div>
             </div>
             <ul class="contact">
-                <li><a href="tel:0710995133" title="1-800-23-456-7890"><i class="fa fa-phone"
-                            aria-hidden="true"></i>Phone: 0710995133</a></li>
+                <li><a href="tel:0710995133" title="0710995133"><i class="fa fa-phone" aria-hidden="true"></i>Phone:
+                        0710995133</a></li>
             </ul>
             <div class="social-icons pull-right">
                 <ul>
@@ -102,7 +102,7 @@
                 <ul class="portfolio-list no-left-padding">
                     <li class="col-md-3 col-sm-3 col-xs-6 design">
                         <div class="content-image-block">
-                            <img src="images/gallery-9.jpg" alt="gallery" width="380" height="390">
+                            <img src="images/out1.jpeg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
 
                                 <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
@@ -111,33 +111,7 @@
                     </li>
                     <li class="col-md-3 col-sm-3 col-xs-6 web">
                         <div class="content-image-block">
-                            <img src="images/gallery-10.jpg" alt="gallery" width="380" height="390">
-                            <div class="content-block-hover">
-                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
-
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3 col-sm-3 col-xs-6 video">
-                        <div class="content-image-block">
-                            <img src="images/gallery-11.jpg" alt="gallery" width="380" height="390">
-                            <div class="content-block-hover">
-                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
-
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3 col-sm-3 col-xs-6 design">
-                        <div class="content-image-block">
-                            <img src="images/gallery-18.jpg" alt="gallery" width="380" height="390">
-                            <div class="content-block-hover">
-                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="col-md-3 col-sm-3 col-xs-6 web">
-                        <div class="content-image-block">
-                            <img src="images/gallery-13.jpg" alt="gallery" width="380" height="390">
+                            <img src="images/out2.jpeg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
                                 <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
 
@@ -146,23 +120,35 @@
                     </li>
                     <li class="col-md-3 col-sm-3 col-xs-6 video">
                         <div class="content-image-block">
-                            <img src="images/gallery-14.jpg" alt="gallery" width="380" height="390">
+                            <img src="images/out4.jpg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
                                 <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
+
                             </div>
                         </div>
                     </li>
-                    <li class="col-md-3 col-sm-3 col-xs-6 design">
+                    <li class="col-md-3 col-sm-3 col-xs-6 video">
                         <div class="content-image-block">
-                            <img src="images/gallery-15.jpg" alt="gallery" width="380" height="390">
+                            <img src="images/out4.jpg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
                                 <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
+
                             </div>
                         </div>
                     </li>
+
                     <li class="col-md-3 col-sm-3 col-xs-6 web">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/gallery-19.jpg" alt="gallery" width="380" height="390"></a>
+                            <img src="images/d34.jpg" alt="gallery" width="480" height="490">
+                            <div class="content-block-hover">
+                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="col-md-3 col-sm-3 col-xs-6 video">
+                        <div class="content-image-block">
+                            <img src="images/d.jpg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
                                 <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
                             </div>
@@ -170,39 +156,21 @@
                     </li>
                     <li class="col-md-3 col-sm-3 col-xs-6 design">
                         <div class="content-image-block">
-                            <img src="images/rice2.jpg" alt="gallery" width="380" height="390">
+                            <img src="images/d34.jpg" alt="gallery" width="380" height="390">
                             <div class="content-block-hover">
-                                <p><b>රසකාරක මත පදනම් නොවූ සුව්ක්‍ය්යාරක්#####@ ප්‍රනීත ආහාර </b></p>
+                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
                             </div>
                         </div>
-                    </li>
+                    </li> <br>
                     <li class="col-md-3 col-sm-3 col-xs-6 web">
                         <div class="content-image-block">
-                            <a href=".#"><img src="images/rice1.jpeg" alt="gallery" width="380" height="390"></a>
+                            <a href=".#"><img src="images/fff.jpeg" alt="gallery" width="380" height="350"></a>
                             <div class="content-block-hover">
-                                <h3>cream berry</h3>
-                                <p>The shooting at some food and up through the ground oil.</p>
+                                <p><b>සියලූම අවස්තාවලට අනුකූලව ඉතාමත් උසස් ප්‍රමිතියකින් යුතු Cake වර්ග</b></p>
                             </div>
                         </div>
                     </li>
-                    {{-- gallery-16.jpg --}}
-                    <li class="col-md-3 col-sm-3 col-xs-6 design">
-                        <div class="content-image-block">
-                            <a href=".#"><img src="images/rice3.jpeg" alt="gallery" width="380" height="390"></a>
-                            <div class="content-block-hover">
-                                <p><b>රසකාරක මත පදනම් නොවූ සුව්ක්‍ය්යාරක්#####@ ප්‍රනීත ආහාර </b></p>
-                            </div>
-                        </div>
-                    </li>
-                    {{-- gallery-17.jpg --}}
-                    <li class="col-md-3 col-sm-3 col-xs-6 design">
-                        <div class="content-image-block">
-                            <a href=".#"><img src="images/rice4.jpeg" alt="gallery" width="380" height="390"></a>
-                            <div class="content-block-hover">
-                                <p><b>රසකාරක මත පදනම් නොවූ සුව්ක්‍ය්යාරක්#####@ ප්‍රනීත ආහාර </b></p>
-                            </div>
-                        </div>
-                    </li>
+
                 </ul>
                 {{-- gallery-20.jpg --}}
                 <nav class="ow-pagination">

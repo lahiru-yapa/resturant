@@ -16,7 +16,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Services - Bakery</title>
+    <title>Services - Hotel</title>
 
     <!-- Standard Favicon -->
     <link rel="icon" type="image/x-icon" href="images//favicon.ico" />
@@ -136,27 +136,25 @@
                         through the ground came a oil that is its a beautiful day.</p>
                 </div><!-- Section Header /-  -->
 
-                <form>
+
+                <form action="{{route('order.store')}}" method="POST" id="subcribe-order">
+                    @csrf
+
                     <div class="col-md-4 col-sm-4 col-xs-4">
-                        <input type="text" class="form-control" placeholder="Name *" required />
+                        <input type="text" class="form-control" placeholder="Name *" name="name" name="name" />
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-4">
-                        <input type="text" class="form-control" placeholder="Phone Number *" required />
+                        <input type="text" class="form-control" placeholder="Phone Number *" name="phone" />
                     </div>
-                    <div class="form-group col-md-4 col-sm-4 col-xs-4">
-                        <select>
-                            <option>FLAVOURS</option>
-                            <option>FLAVOURS</option>
-                            <option>FLAVOURS</option>
-                            <option>FLAVOURS</option>
-                        </select>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <input type="text" class="form-control" placeholder="Food Name *" name="food" />
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <textarea class="form-control" rows="4" placeholder="Your Address *"></textarea>
+                        <textarea class="form-control" rows="4" placeholder="Your Address *" name="address"></textarea>
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12 order-links">
-                        <a href="#" title="Order Now" class="order-now">Order Now</a>
-                        <a href="#" title="Free Delivery" class="free-delivery">Free Delivery</a>
+                        <button type="submit" class="order-now">Order Now</button>
+
                     </div>
                     <div class="working-hours">
                         <p><span>working hours:</span> monday to friday : 8.30AM - 10.30PM</p>
@@ -273,6 +271,55 @@
 
     <!-- Library - Theme JS -->
     <script src="js/functions.js"></script>
+    <script>
+        $(function () {
+            // activity data validation
+            $("#subcribe-order").validate({
+
+                rules: {
+                    name: {
+                        required: true
+                    },
+                    food: {
+                        required: true
+                    },
+                    address: {
+                        required: true,
+                    },
+                    phone: {
+                        required: true,
+                        phoneLength: true
+
+                    },
+
+                },
+                messages: {
+                    name: {
+                        required: "Please enter name"
+                    },
+                    food: {
+                        required: "Please enter food name"
+                    },
+
+                    phone: {
+                        required: "Please enter phone number",
+                        phoneLength: "Please enter phone number length 10",
+                    },
+                    address: {
+                        required: "Please enter address",
+                    },
+
+                },
+                submitHandler: function (form) {
+
+                    form.submit();
+
+                }
+            });
+
+        });
+
+    </script>
     <script>
         $(function () {
             // activity data validation

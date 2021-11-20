@@ -67,8 +67,8 @@
                 </div>
             </div>
             <ul class="contact">
-                <li><a href="tel:1-800-23-456-7890" title="1-800-23-456-7890"><i class="fa fa-phone"
-                            aria-hidden="true"></i>Phone: 1-800-23-456-7890</a></li>
+                <li><a href="tel:0710995133" title="0710995133"><i class="fa fa-phone"
+                            aria-hidden="true"></i>Phone: 0710995133</a></li>
             </ul>
             <div class="social-icons pull-right">
                 <ul>
@@ -155,7 +155,7 @@
                     <div class="col-md-6 col-sm-6 col-xs-6 contact-content">
                         <div class="contact-info">
                             <h3>Contact Info</h3>
-                            <p><a href="tel:1-800-23-456-7890" title="1-800-23-456-7890">(1-800-23-456-7890)</a></p>
+                            <p><a href="tel:0710995133" title="0710995133">(0710995133)</a></p>
                             <p><a href="mailto:info@domain.com" title="info@domain.com">info@domain.com</a></p>
                             <p><a href="mailto:xyz@royalbakers.com" title="xyz@royalbakers.com">xyz@royalbakers.com</a>
                             </p>
