@@ -89,7 +89,7 @@
         <!-- Page Banner -->
         <div class="page-banner container-fluid no-padding">
             <div class="page-banner-content">
-                <h3>Services</h3>
+                <h3>Bakery</h3>
             </div>
         </div><!-- Page Banner /- -->
 

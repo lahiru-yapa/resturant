@@ -11,36 +11,36 @@
 /*----------------------------------------------------------------------
 
 	* Import Css
-	
+
 	* Body
 		- Padding/Margin
-	
+
 	* Typography
-	
+
 		- font-family: 'Poppins', sans-serif;
 		- font-family: 'Great Vibes', cursive;
 		- font-family: 'Arimo', sans-serif;
 		- font-family: 'Dancing Script', cursive;
-		
+
 	* Section Padding
-		
-	* Fonts Settings	
+
+	* Fonts Settings
 		- Font Name Heare
 
 	* Header
 
 	* Footer
-	
+
 	* Page Banner
-	
+
 	* Section Header
-	
-	* Responsive		
+
+	* Responsive
 		- min-width: 1200
 		- min-width: 992
 		- min-width: 768
 		- max-width: 1200
-		- min-width: 992 to max-width: 1199		
+		- min-width: 992 to max-width: 1199
 		- max-width: 991
 		- min-width: 768 to max-width: 991
 		- max-width: 767
@@ -702,8 +702,8 @@ main,footer {
 
 
 /* - Expanding Search */
-.header-main .menu-search { 
-	display: inline-block;	
+.header-main .menu-search {
+	display: inline-block;
 	width: 22px;
 }
 .menu-search .sb-search-input::-webkit-input-placeholder {
@@ -836,7 +836,7 @@ main,footer {
 	float: right;
 	list-style: none;
 	margin-bottom: 15px;
-	margin-top: 40px;	
+	margin-top: 40px;
 }
 
 .header-main .cart > li > a {
@@ -870,14 +870,14 @@ main,footer {
 	display: inline-block;
 	width: 100%;
 	line-height: 80px;
-	border-bottom: 1px solid #fff;	
+	border-bottom: 1px solid #fff;
 }
 .header-main .cart .mini_cart_item:last-child {
 	border-bottom: none;
 }
 
 .header-main .cart .dropdown-menu .button {
-	margin-top: 20px;	
+	margin-top: 20px;
 }
 .header-main .cart .dropdown-menu .button a {
 	background-color: #000;
@@ -933,7 +933,7 @@ main,footer {
 }
 .subscribe-section .container {
 	background-color: #ffbb63;
-	padding: 27px 31px;	
+	padding: 27px 31px;
 	position: relative;
 }
 .subscribe-section form input[type="text"],
@@ -943,24 +943,24 @@ main,footer {
 	outline: none;
 }
 .subscribe-title {
-	color: #fff; 
-	text-align: center; 
-	font-size: 20px; 
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
-	text-transform: uppercase; 
-	letter-spacing: 0.8px; 
+	text-transform: uppercase;
+	letter-spacing: 0.8px;
 	margin-bottom: 0;
 	margin-top: 18px;
 	display: inline-block;
 }
- 
+
 .subscribe-section form {
-	display: inline-block; 
-	padding: 0; 
+	display: inline-block;
+	padding: 0;
 	margin-top: 0px;
 }
- 
+
 .subscribe-section form input[type="text"] {
 	width: 100%;
 	padding-left: 30px;
@@ -987,10 +987,10 @@ main,footer {
 
 .subscribe-section form input[type="text"],
 .subscribe-section .btn-default {
-	background-color: #fff; 
+	background-color: #fff;
 	box-shadow: none;
 	height: 53px;
-	width: 100%; 
+	width: 100%;
 	position: relative;
 }
 .subscribe-section i {
@@ -1001,7 +1001,7 @@ main,footer {
 	font-size: 20px;
 }
 .subscribe-section .btn-default {
-	background-color: #121212; 
+	background-color: #121212;
 	font-family: 'Arimo', sans-serif;
 	font-weight: 700;
 	font-size: 12px;
@@ -1154,7 +1154,7 @@ main,footer {
 .bottom-footer .breadcrumb li:last-of-type {
 	margin: 0;
 }
-.bottom-footer .breadcrumb li, 
+.bottom-footer .breadcrumb li,
 .bottom-footer .breadcrumb li a {
 	color: #adadad;
 	font-family: 'Arimo', sans-serif;
@@ -1246,7 +1246,7 @@ main,footer {
 	letter-spacing: 0.52px;
 }
 .link-widget ul li a,
-.footer-main-1 .ftr-widget p a { 
+.footer-main-1 .ftr-widget p a {
 	-webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -1254,8 +1254,8 @@ main,footer {
 	text-decoration: none;
 }
 .link-widget ul li a:hover,
-.footer-main-1 .ftr-widget p a:hover { 
-	color: #59d4f0; 
+.footer-main-1 .ftr-widget p a:hover {
+	color: #59d4f0;
 }
 
 /* - Contact Widget */
@@ -1318,13 +1318,13 @@ main,footer {
    color: #969595;
 }
 .form-widget .form-control:-moz-placeholder { /* Firefox 18- */
-   color: #969595; 
+   color: #969595;
 }
 .form-widget .form-control::-moz-placeholder {  /* Firefox 19- */
    color: #969595;
 }
-.form-widget .form-control:-ms-input-placeholder {  
-   color: #969595; 
+.form-widget .form-control:-ms-input-placeholder {
+   color: #969595;
 }
 .form-widget .form-group button {
 	color: #121212;
@@ -1361,9 +1361,28 @@ main,footer {
 }
 
 /* * Page Banner */
-
+.page-banner-hotel {
+    background-image: url("images/rice.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 280px;
+    min-height: 280px;
+    position: relative;
+    text-align: center;
+}
+.page-banner-cake {
+    background-image: url("images/cake.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 280px;
+    min-height: 280px;
+    position: relative;
+    text-align: center;
+}
 .page-banner {
-    background-image: url("images/page-banner.jpg");
+    background-image: url("images/bakery1.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1423,8 +1442,8 @@ main,footer {
 
 /*-----------------------------------------------------------------
 
-	 * Responsive 
-	 
+	 * Responsive
+
 -------------------------------------------------------------------*/
 
 /* - min-width: 1200 */
@@ -1443,7 +1462,7 @@ main,footer {
 	.header-main.navbar-fixed-top .cart {
 		margin-top: 40px;
 	}
-	.header-main.navbar-fixed-top .menu-search .sb-icon-search, 
+	.header-main.navbar-fixed-top .menu-search .sb-icon-search,
 	.header-main.navbar-fixed-top .menu-search .sb-search-submit {
 		top: 35px;
 	}
@@ -1472,12 +1491,12 @@ main,footer {
 
 /* - max-width: 767 */
 @media (max-width: 767px) {
-	
+
 }
 
 /* - max-width: 1200px */
 @media (max-width: 1200px) {
-	
+
 }
 
 /* - min-width: 992 to max-width: 1199 */
@@ -1550,12 +1569,12 @@ main,footer {
 	.header-main .add-to-cart .cart .dropdown-menu .mini_cart_item a {
 		background-color: transparent;
 	}
-	
+
 	/* - Subscribe Section */
 	.subscribe-title {
 		font-size: 16px;
 	}
-	
+
 	/* - Footer Main */
 	.footer-main .footer-content .about-footer p {
 		padding: 0;
@@ -1566,7 +1585,7 @@ main,footer {
 	.footer-main .col-xs-6:nth-child(2n-1) {
 		clear: left;
 	}
-	
+
 	.subscribe-section-1 {
 		padding: 27px 15px;
 	}
@@ -1574,11 +1593,11 @@ main,footer {
 
 /* - min-width: 768 to max-width: 991 */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	
+
 }
 
 /* - max-width: 767 */
-@media (max-width: 767px) {	
+@media (max-width: 767px) {
 	/* - Subscribe Section */
 	.subscribe-title {
 		margin-bottom: 20px;
@@ -1588,7 +1607,7 @@ main,footer {
 	.footer-main .footer-content .about-footer h3 {
 		font-size: 20px;
 	}
-	
+
 	/* - Bottom Footer */
 	.bottom-footer .footer-copyright {
 		width: 100%;

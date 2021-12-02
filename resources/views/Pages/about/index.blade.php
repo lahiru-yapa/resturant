@@ -106,7 +106,11 @@
                     <h5>Our Story</h5>
                     <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15">
                     <p>The day for a three hour tour a three hour tour then one day he was shooting at some food and up
-                        through the ground came a oil that is its a beautiful day.</p>
+                        through the ground came a oil that is its a beautiful day.</p><br><br>
+                    <p><b>name:</b>Liyanagamage Ranjith Liyanagamage</p>
+                    <p><b>name:</b>Liyanage Chandrika PushpaKumari</p>
+                    <p><b>name:</b>Liyanagamage Yohan Rasitha Kumara</p>
+                    <p><b>name:</b>Liyanagamage Ravindu Kumara</p>
                 </div><!-- Section Header /-  -->
                 <div class="col-md-7 col-sm-7 col-xs-6 wc-img-box">
                     <img src="images/welcome-1.png" alt="welcome" width="754" height="502" />
