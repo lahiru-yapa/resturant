@@ -47,14 +47,14 @@
                      <li><a href="{{route("about")}}" title="About">About us</a></li>
 
 
-                     <li class="dropdown">
+                     {{-- <li class="dropdown">
                          <a href="blog.html" title="Latest News" class="dropdown-toggle" role="button"
                              aria-haspopup="true" aria-expanded="false">Blog</a>
                          <i class="ddl-switch fa fa-angle-down"></i>
                          <ul class="dropdown-menu">
                              <li><a href="blog-post.html" title="Blog Post">Blog Post</a></li>
                          </ul>
-                     </li>
+                     </li> --}}
                      <li><a href="{{route("contact")}}" title="About">Contact</a></li>
                  </ul>
              </div>

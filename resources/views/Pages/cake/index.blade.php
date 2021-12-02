@@ -87,9 +87,9 @@
 
     <main class="site-main page-spacing">
         <!-- Page Banner -->
-        <div class="page-banner container-fluid no-padding">
+        <div class="page-banner-cake container-fluid no-padding">
             <div class="page-banner-content">
-                <h3>Services</h3>
+                <h3>Cake</h3>
             </div>
         </div><!-- Page Banner /- -->
 
@@ -165,7 +165,6 @@
             <div class="section-padding"></div>
         </div><!-- Order Section 1 /- -->
 
-        <!-- Menu Section -->
         <div id="menu-section" class="menu-section container-fluid no-padding">
             <div class="section-padding"></div>
             <div class="container">
@@ -180,51 +179,48 @@
 
             <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
                 <div class="">
-                    <img src="images/menu-1.png" alt="menu" />
-                    <h3>CHOCOLATE FLASH </h3>
+                    <img src="images/kottu1.jpg" alt="menu" />
+
 
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-6 text-center" style="text-align: center">
                 <div class="">
-                    <img src="images/menu-2.png" alt="menu" />
-                    <h3>ROSE CREAMY </h3>
+                    <img src="images/kottu2.jpg" alt="menu" />
 
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6 text-center" style="text-align: center">
+                <div class="">
+                    <img src="images/kottu4.jpg" alt="menu" />
+
+
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
+                <div class="">
+                    <img src="images/kottu3.jpg" alt="menu" />
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
                 <div class="">
-                    <img src="images/menu-3.png" alt="menu" />
-                    <h3>VELVET CAKE </h3>
+                    <img src="images/kottu5.jpg" alt="menu" />
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
                 <div class="">
-                    <img src="images/menu-4.png" alt="menu" />
-                    <h3>FLOWERED CAKE </h3>
+                    <img src="images/kottu6.jpg" alt="menu" />
 
                 </div>
             </div>
-
-            <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
-                <div class="">
-                    <img src="images/menu-5.png" alt="menu" />
-                    <h3>ROSEBERRY CAKE </h3>
-
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
-                <div class="">
-                    <img src="images/menu-6.png" alt="menu" />
-                    <h3>CHOCOLATE BERRY CAKE </h3>
-
-                </div>
-            </div>
-        </div><!-- Menu Section /- -->
+        </div>
         <div class="section-padding"></div>
 
         <!-- Newsletter Box -->

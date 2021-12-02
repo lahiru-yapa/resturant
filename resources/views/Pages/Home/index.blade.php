@@ -52,7 +52,7 @@
             <div id="main-carousel" class="carousel slide carousel-fade" data-ride="carousel">
                 <div role="listbox" class="carousel-inner">
                     <div class="item active">
-                        <img width="1920" height="1030" alt="slider" src="images/slider-1.jpg">
+                        <img width="1920" height="1030" alt="slider" src="images/bakery1.jpg">
                         <div class="carousel-caption">
                             <img data-animation="animated pulse" src="images/slider-ic.png" alt="slider-ic" width="121"
                                 height="124">
@@ -63,7 +63,7 @@
                     </div>
 
                     <div class="item">
-                        <img width="1920" height="1030" alt="slider" src="images/slider-2.jpg">
+                        <img width="1920" height="1030" alt="slider" src="images/bakery2.jpg">
                         <div class="carousel-caption">
                             <img data-animation="animated pulse" src="images/slider-ic.png" alt="slider-ic" width="121"
                                 height="124">
@@ -262,47 +262,41 @@
 
             <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
                 <div class="">
-                    <img src="images/menu-1.png" alt="menu" />
-                    <h3>CHOCOLATE FLASH </h3>
+                    <img src="images/bakery1.jpg" alt="menu" />
+
 
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-6 text-center" style="text-align: center">
                 <div class="">
-                    <img src="images/menu-2.png" alt="menu" />
-                    <h3>ROSE CREAMY </h3>
+                    <img src="images/bakery2.jpg" alt="menu" />
+
 
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
                 <div class="">
-                    <img src="images/menu-3.png" alt="menu" />
-                    <h3>VELVET CAKE </h3>
+                    <img src="images/bakery3.jpg" alt="menu" />
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
                 <div class="">
-                    <img src="images/menu-4.png" alt="menu" />
-                    <h3>FLOWERED CAKE </h3>
-
+                    <img src="images/bakery5.jpg" alt="menu" />
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
                 <div class="">
-                    <img src="images/menu-5.png" alt="menu" />
-                    <h3>ROSEBERRY CAKE </h3>
-
+                    <img src="images/bakery7.jpg" alt="menu" />
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
                 <div class="">
-                    <img src="images/menu-6.png" alt="menu" />
-                    <h3>CHOCOLATE BERRY CAKE </h3>
+                    <img src="images/bakery6.jpg" alt="menu" />
 
                 </div>
             </div>
@@ -489,7 +483,7 @@
         </div><!-- Counter Section /- -->
 
         <!-- Latest Blog -->
-        <div class="latest-blog container-fluid no-padding">
+        {{-- <div class="latest-blog container-fluid no-padding">
             <div class="section-padding"></div>
             <!-- Container -->
             <div class="container">
@@ -594,7 +588,7 @@
                 </div>
             </div><!-- Container /- -->
             <div class="section-padding"></div>
-        </div><!-- Latest Blog /- -->
+        </div><!-- Latest Blog /- --> --}}
         @include('Components.newsletter')
 
         <!-- Newsletter Box -->
@@ -708,35 +702,34 @@
         });
 
     </script>
-  <script>
-    $(function () {
-        // activity data validation
-        $("#subcribe-form").validate({
+    <script>
+        $(function () {
+            // activity data validation
+            $("#subcribe-form").validate({
 
-            rules: {
-                email: {
-                    required: true,
-                    emailValid: true
+                rules: {
+                    email: {
+                        required: true,
+                        emailValid: true
+                    }
+                },
+                messages: {
+
+                    email: {
+                        required: "Please enter email",
+                        emailValid: "Please enter valid email"
+                    }
+                },
+                submitHandler: function (form) {
+
+                    form.submit();
+
                 }
-            },
-            messages: {
+            });
 
-                email: {
-                    required: "Please enter email",
-                    emailValid: "Please enter valid email"
-                }
-            },
-            submitHandler: function (form) {
-
-                form.submit();
-
-            }
         });
 
-    });
-
-</script>
+    </script>
 </body>
 
 </html>
-

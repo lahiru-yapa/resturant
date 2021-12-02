@@ -87,9 +87,9 @@
 
     <main class="site-main page-spacing">
         <!-- Page Banner -->
-        <div class="page-banner container-fluid no-padding">
+        <div class="page-banner-hotel container-fluid no-padding">
             <div class="page-banner-content">
-                <h3>Services</h3>
+                <h3>Hotel</h3>
             </div>
         </div><!-- Page Banner /- -->
 
@@ -167,72 +167,62 @@
         </div><!-- Order Section 1 /- -->
 
         <!-- Menu Section -->
-        <div class="menu-section container-fluid no-padding">
+        <div id="menu-section" class="menu-section container-fluid no-padding">
             <div class="section-padding"></div>
             <div class="container">
                 <div class="section-header">
                     <h3>Our Menu</h3>
                     <h5>CREAMY DISHES</h5>
                     <img src="images/section-seprator.png" alt="section-seprator" width="169" height="15">
-                    <p>The day for a three hour tour a three hour tour then one day he was shooting at some food and up
-                        through the ground came a oil that is its a beautiful day.</p>
+                    <p><b>වසර 15 කට අදික පලපුරුද්දක් සහිත Chandrika Hotel වෙතින් . සියලූම අවස්තාවලට ගැලපෙන උසස්ම
+                            ප්‍රමිතියකින් යුතු Cake වර්ග.. මිත්‍රශීලී සුහද සේවයක් සදහා අප සමග අත්වැල් බැද ගන්න.</b></p>
                 </div><!-- Section Header /-  -->
             </div><!-- Container /- -->
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="menu-box">
-                    <img src="images/menu-1.png" alt="menu" />
-                    <h3>CHOCOLATE FLASH <span>$20.00</span></h3>
-                    <p>The day he wane day he was shooting at some food and up through the ground.</p>
-                    <a href="#" title="Order Now">Order Now</a>
+            <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
+                <div class="">
+                    <img src="images/kottu1.jpg" alt="menu" />
+
+
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="menu-box">
-                    <img src="images/menu-2.png" alt="menu" />
-                    <h3>ROSE CREAMY <span>$25.00</span></h3>
-                    <p>The day he wane day he was shooting at some food and up through the ground.</p>
-                    <a href="#" title="Order Now">Order Now</a>
+            <div class="col-md-4 col-sm-6 col-xs-6 text-center" style="text-align: center">
+                <div class="">
+                    <img src="images/kottu2.jpg" alt="menu" />
+
+
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6 text-center" style="text-align: center">
+                <div class="">
+                    <img src="images/kottu4.jpg" alt="menu" />
+
+
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="menu-box">
-                    <img src="images/menu-3.png" alt="menu" />
-                    <h3>VELVET CAKE <span>$32.00</span></h3>
-                    <p>The day he wane day he was shooting at some food and up through the ground.</p>
-                    <a href="#" title="Order Now">Order Now</a>
+
+
+            <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
+                <div class="">
+                    <img src="images/kottu3.jpg" alt="menu" />
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="menu-box">
-                    <img src="images/menu-4.png" alt="menu" />
-                    <h3>FLOWERED CAKE <span>$38.00</span></h3>
-                    <p>The day he wane day he was shooting at some food and up through the ground.</p>
-                    <a href="#" title="Order Now">Order Now</a>
+            <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
+                <div class="">
+                    <img src="images/kottu5.jpg" alt="menu" />
                 </div>
             </div>
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="menu-box">
-                    <img src="images/menu-5.png" alt="menu" />
-                    <h3>ROSEBERRY CAKE <span>$48.00</span></h3>
-                    <p>The day he wane day he was shooting at some food and up through the ground.</p>
-                    <a href="#" title="Order Now">Order Now</a>
-                </div>
-            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6" style="text-align: center">
+                <div class="">
+                    <img src="images/kottu6.jpg" alt="menu" />
 
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="menu-box">
-                    <img src="images/menu-6.png" alt="menu" />
-                    <h3>CHOCOLATE BERRY CAKE <span>$54.00</span></h3>
-                    <p>The day he wane day he was shooting at some food and up through the ground.</p>
-                    <a href="#" title="Order Now">Order Now</a>
                 </div>
             </div>
-        </div><!-- Menu Section /- -->
+        </div>
         <div class="section-padding"></div>
 
         <!-- Newsletter Box -->
